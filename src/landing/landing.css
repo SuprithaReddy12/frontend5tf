@@ -1,0 +1,37 @@
+.land{
+    margin-top: 50px;
+    margin-left: 20%;
+}
+
+.landing{
+    display: flex;
+    flex-direction: row;
+}
+
+.context{
+    margin-left: 100px;
+    margin-top: 250px;
+}
+
+.context-1{
+    color: green;
+}
+
+.enter{
+    height: 30px;
+    width: 100px;
+    border: 1px solid green;
+    color: green;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+a{
+    text-decoration: none;
+}
+
+.enter:hover{
+    background-color: green;
+    color: white;
+}

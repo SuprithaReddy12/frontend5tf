@@ -1,0 +1,32 @@
+form{
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    border: 2px solid black;
+    height: 220px;
+    width: 500px;
+    margin-left: 33%;
+}
+
+input, .button{
+    height: 20px;
+    width: 200px;
+    margin: 10px 10px;
+}
+
+.section{
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+}
+
+.button{
+    margin-left: 170px;
+    width: 100px;
+}
+
+.button:hover{
+    background-color: skyblue;
+    color: white;
+    border: 1px solid gray;
+}
